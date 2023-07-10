@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="greeting_page" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onDragDetected="#gotogame" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.willhero.GreetingControler">
+   <children>
+      <ImageView fitHeight="612.0" fitWidth="1050.0" layoutX="-34.0" layoutY="-5.0">
+         <image>
+            <Image url="@../../../greeting_page.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="play_button" fitHeight="130.0" fitWidth="158.0" layoutX="412.0" layoutY="435.0" onMouseClicked="#gotogame">
+         <image>
+            <Image url="@../../../play_button.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
